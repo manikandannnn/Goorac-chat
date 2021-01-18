@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+     function resultPage() {
+var r =  localStorage.getItem("uname");
+if ( r == null || r == "" ) {
+     window.location = "login.html";
+}
+ else {
+ window.location = "main.html";
+}
+}
+</script>
+</head>
+<body onload=" resultPage() ">
+<body>
+</html>

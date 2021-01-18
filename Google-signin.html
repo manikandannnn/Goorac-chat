@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><
+<head>
+<title>Login</title>
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body><center>
+ 
+      
+<h2><b>Goorac</b></h2> <br><br><br><br><br><br>
+<h4 style="font-family:sans;">Sign in with Google<h4>
+<br>
+<button class="btn btn-success" onclick="signIn()">Sign in</button>
+ <br><br><br><br>
+<button style="float:right;" class="btn btn-primary" onclick="run()">Start</button>
+
+
+<script>
+function run() {
+ window.location ="main.html";
+}
+</script>
+ <script>
+    function show(shown, hidden) {
+      document.getElementById(shown).style.display='block';
+      document.getElementById(hidden).style.display='none';
+      return false;
+    }
+    </script>
+
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/popper-1.14.7.min.js"></script>
+    <script src="Scripts/bootstrap-4.3.1.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase.js"></script>
+    <script src="Scripts/firebase-messaging.js"></script>
+    <script src="Scripts/firebase.init.js"></script>
+    <script src="Scripts/chat.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
